@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
-    <title>Mrxiao6</title>
-    <updated>2021-05-06T09:59:56.430Z</updated>
+    <title>Xiao6</title>
+    <updated>2021-05-06T10:01:38.467Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
-    <subtitle>Mrxiao6</subtitle>
+    <subtitle>Xiao6</subtitle>
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Mrxiao6</rights>
+    <rights>All rights reserved 2021, Xiao6</rights>
     <entry>
         <title type="html"><![CDATA[canvas绘图在高清屏出现模糊的问题]]></title>
         <id>https://1306229903.github.io/post/canvas-hui-tu-zai-gao-qing-ping-chu-xian-mo-hu-de-wen-ti/</id>
