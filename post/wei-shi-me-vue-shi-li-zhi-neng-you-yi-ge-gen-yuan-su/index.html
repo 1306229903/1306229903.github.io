@@ -2,18 +2,19 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>前端往后端发送数据，三种编码格式的区别 | Blog</title>
+<title>为什么 Vue 实例只能有一个根元素 | Blog</title>
 <link rel="shortcut icon" href="https://1306229903.github.io/favicon.ico?v=1620294729113">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://1306229903.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="前端往后端发送数据，三种编码格式的区别 | Blog - Atom Feed" href="https://1306229903.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="为什么 Vue 实例只能有一个根元素 | Blog - Atom Feed" href="https://1306229903.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="通常，前端往后端发送数据，常用有这么三种编码格式（application/x-www-form-urlencoded、application/json、multipart/form-data）。
-后两种，浏览器或客户端都会自动去序列化，无需..." />
-    <meta name="keywords" content="其它" />
+    <meta name="description" content="1、vue实例挂载的时候，需要寻找到对应的模板入口，如果同时设置了多个入口，它就不知道该用哪个入口
+2、由于vue的diff算法是这样依赖来编写的，你可以去更新修改
+3、从查找和遍历的角度来说，如果有多个根，那么我们的查找和遍历的效率会很低..." />
+    <meta name="keywords" content="VUE" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -75,7 +76,7 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              前端往后端发送数据，三种编码格式的区别
+              为什么 Vue 实例只能有一个根元素
             </h2>
             <div class="post-info">
               <span>
@@ -85,16 +86,17 @@
                 1 min read
               </span>
               
-                <a href="https://1306229903.github.io/tag/CTPpJIpAn/" class="post-tag">
-                  # 其它
+                <a href="https://1306229903.github.io/tag/ZwoRmXEWP/" class="post-tag">
+                  # VUE
                 </a>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>通常，前端往后端发送数据，常用有这么三种编码格式（application/x-www-form-urlencoded、application/json、multipart/form-data）。</p>
-<p>后两种，浏览器或客户端都会自动去序列化，无需进行数据处理；而（application/x-www-form-urlencoded）这种，客户端序列化出的数据格式，是后端无法接收的，这种类型的必须先手动去编码，在手动进行数据处理后如：使用URLSearchParams，才能正常被后端所解析。</p>
+                <p>1、vue实例挂载的时候，需要寻找到对应的模板入口，如果同时设置了多个入口，它就不知道该用哪个入口</p>
+<p>2、由于vue的diff算法是这样依赖来编写的，你可以去更新修改</p>
+<p>3、从查找和遍历的角度来说，如果有多个根，那么我们的查找和遍历的效率会很低</p>
 
               </div>
               <div class="toc-container">
@@ -107,9 +109,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://1306229903.github.io/post/qian-hou-duan-da-shu-chuan-shu-fang-an/">
+            <a href="https://1306229903.github.io/post/vue-de-yi-bu-shua-xin-dui-lie/">
               <h3 class="post-title">
-                前后端大数传输方案
+                VUE的异步刷新队列
               </h3>
             </a>
           </div>

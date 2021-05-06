@@ -2,18 +2,18 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>前端往后端发送数据，三种编码格式的区别 | Blog</title>
+<title>canvas绘图在高清屏出现模糊的问题 | Blog</title>
 <link rel="shortcut icon" href="https://1306229903.github.io/favicon.ico?v=1620294729113">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://1306229903.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="前端往后端发送数据，三种编码格式的区别 | Blog - Atom Feed" href="https://1306229903.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="canvas绘图在高清屏出现模糊的问题 | Blog - Atom Feed" href="https://1306229903.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="通常，前端往后端发送数据，常用有这么三种编码格式（application/x-www-form-urlencoded、application/json、multipart/form-data）。
-后两种，浏览器或客户端都会自动去序列化，无需..." />
-    <meta name="keywords" content="其它" />
+    <meta name="description" content="canvas 标签中的 width 和 height 属性并不是 css 中的宽高，而是 canvas 绘图上下文（绘图区域）的宽高。
+  CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形..." />
+    <meta name="keywords" content="html+css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -75,7 +75,7 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              前端往后端发送数据，三种编码格式的区别
+              canvas绘图在高清屏出现模糊的问题
             </h2>
             <div class="post-info">
               <span>
@@ -85,16 +85,19 @@
                 1 min read
               </span>
               
-                <a href="https://1306229903.github.io/tag/CTPpJIpAn/" class="post-tag">
-                  # 其它
+                <a href="https://1306229903.github.io/tag/VLuQmHfXL/" class="post-tag">
+                  # html+css
                 </a>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>通常，前端往后端发送数据，常用有这么三种编码格式（application/x-www-form-urlencoded、application/json、multipart/form-data）。</p>
-<p>后两种，浏览器或客户端都会自动去序列化，无需进行数据处理；而（application/x-www-form-urlencoded）这种，客户端序列化出的数据格式，是后端无法接收的，这种类型的必须先手动去编码，在手动进行数据处理后如：使用URLSearchParams，才能正常被后端所解析。</p>
+                <p>canvas 标签中的 width 和 height 属性并不是 css 中的宽高，而是 canvas 绘图上下文（绘图区域）的宽高。</p>
+<pre><code>  CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形根据一定缩放比率进行缩放，
+</code></pre>
+<p>它会将整个 canvas 绘图区域塞进 canvas  css 宽高中并填满，这样有时就会出现模糊现象。</p>
+<p>解决方案为：首先分别声明 canvas 的 css 宽高和上下文宽高，同时上下文宽高应该是 css 宽高的 devicePixelRatio （屏幕设备比）的倍数</p>
 
               </div>
               <div class="toc-container">
@@ -107,9 +110,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://1306229903.github.io/post/qian-hou-duan-da-shu-chuan-shu-fang-an/">
+            <a href="https://1306229903.github.io/post/quan-chong/">
               <h3 class="post-title">
-                前后端大数传输方案
+                权重
               </h3>
             </a>
           </div>
