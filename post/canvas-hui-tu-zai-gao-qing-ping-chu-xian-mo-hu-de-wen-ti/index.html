@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>canvas绘图在高清屏出现模糊的问题 | Xiao6</title>
-<link rel="shortcut icon" href="https://1306229903.github.io/favicon.ico?v=1620295289379">
+<link rel="shortcut icon" href="https://1306229903.github.io/favicon.ico?v=1620297624780">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://1306229903.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="canvas绘图在高清屏出现模糊的问题 | Xiao6 - Atom Feed" href="https://1306229903.github.io/atom.xml">
@@ -12,7 +12,7 @@
 
 
     <meta name="description" content="canvas 标签中的 width 和 height 属性并不是 css 中的宽高，而是 canvas 绘图上下文（绘图区域）的宽高。
-  CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形..." />
+CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形根据..." />
     <meta name="keywords" content="html+css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -22,7 +22,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://1306229903.github.io">
-  <img class="avatar" src="https://1306229903.github.io/images/avatar.png?v=1620295289379" alt="">
+  <img class="avatar" src="https://1306229903.github.io/images/avatar.png?v=1620297624780" alt="">
   </a>
   <h1 class="site-title">
     Xiao6
@@ -111,11 +111,9 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>canvas 标签中的 width 和 height 属性并不是 css 中的宽高，而是 canvas 绘图上下文（绘图区域）的宽高。</p>
-<pre><code>  CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形根据一定缩放比率进行缩放，
-</code></pre>
-<p>它会将整个 canvas 绘图区域塞进 canvas  css 宽高中并填满，这样有时就会出现模糊现象。</p>
-<p>解决方案为：首先分别声明 canvas 的 css 宽高和上下文宽高，同时上下文宽高应该是 css 宽高的 devicePixelRatio （屏幕设备比）的倍数</p>
+                <p>canvas 标签中的 width 和 height 属性并不是 css 中的宽高，而是 canvas 绘图上下文（绘图区域）的宽高。<br>
+CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形根据一定缩放比率进行缩放，它会将整个 canvas 绘图区域塞进 canvas  css 宽高中并填满，这样有时就会出现模糊现象。<br>
+解决方案为：首先分别声明 canvas 的 css 宽高和上下文宽高，同时上下文宽高应该是 css 宽高的 devicePixelRatio （屏幕设备比）的倍数</p>
 
               </div>
               <div class="toc-container">

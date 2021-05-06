@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2021-05-06T10:02:31.410Z</updated>
+    <updated>2021-05-06T10:40:28.385Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -16,11 +16,9 @@
         <link href="https://1306229903.github.io/post/canvas-hui-tu-zai-gao-qing-ping-chu-xian-mo-hu-de-wen-ti/">
         </link>
         <updated>2021-05-06T09:51:35.000Z</updated>
-        <content type="html"><![CDATA[<p>canvas 标签中的 width 和 height 属性并不是 css 中的宽高，而是 canvas 绘图上下文（绘图区域）的宽高。</p>
-<pre><code>  CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形根据一定缩放比率进行缩放，
-</code></pre>
-<p>它会将整个 canvas 绘图区域塞进 canvas  css 宽高中并填满，这样有时就会出现模糊现象。</p>
-<p>解决方案为：首先分别声明 canvas 的 css 宽高和上下文宽高，同时上下文宽高应该是 css 宽高的 devicePixelRatio （屏幕设备比）的倍数</p>
+        <content type="html"><![CDATA[<p>canvas 标签中的 width 和 height 属性并不是 css 中的宽高，而是 canvas 绘图上下文（绘图区域）的宽高。<br>
+CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实际页面所占物理区域，绘图的时候会将绘制的图形根据一定缩放比率进行缩放，它会将整个 canvas 绘图区域塞进 canvas  css 宽高中并填满，这样有时就会出现模糊现象。<br>
+解决方案为：首先分别声明 canvas 的 css 宽高和上下文宽高，同时上下文宽高应该是 css 宽高的 devicePixelRatio （屏幕设备比）的倍数</p>
 ]]></content>
     </entry>
     <entry>
