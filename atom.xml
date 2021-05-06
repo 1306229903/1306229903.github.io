@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Blog</title>
-    <updated>2021-05-06T04:33:35.522Z</updated>
+    <updated>2021-05-06T09:21:14.250Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -11,44 +11,63 @@
     <icon>https://1306229903.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Blog</rights>
     <entry>
-        <title type="html"><![CDATA[test2]]></title>
-        <id>https://1306229903.github.io/post/test/</id>
-        <link href="https://1306229903.github.io/post/test/">
+        <title type="html"><![CDATA[数据库异常，最近博客正在维护]]></title>
+        <id>https://1306229903.github.io/post/shu-ju-ku-yi-chang-zui-jin-bo-ke-zheng-zai-wei-hu/</id>
+        <link href="https://1306229903.github.io/post/shu-ju-ku-yi-chang-zui-jin-bo-ke-zheng-zai-wei-hu/">
         </link>
-        <updated>2021-05-05T13:31:23.000Z</updated>
-        <content type="html"><![CDATA[<p>test2</p>
+        <updated>2021-05-06T09:20:38.000Z</updated>
+        <content type="html"><![CDATA[<p>最近数据库出了问题，数据全部清空了，正在维护之中</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://1306229903.github.io/post/hello-gridea/</id>
-        <link href="https://1306229903.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[css和js渲染问题]]></title>
+        <id>https://1306229903.github.io/post/css-he-js-xuan-ran-wen-ti/</id>
+        <link href="https://1306229903.github.io/post/css-he-js-xuan-ran-wen-ti/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <updated>2021-05-06T09:20:23.000Z</updated>
+        <content type="html"><![CDATA[<p>js、css都是异步下载</p>
+<p>css不阻止dom的加载解析，但是会阻塞dom渲染，也会阻塞js解析执行</p>
+<p>js阻止dom的解析，所以会阻塞dom渲染</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个用户请求体验问题]]></title>
+        <id>https://1306229903.github.io/post/yi-ge-yong-hu-qing-qiu-ti-yan-wen-ti/</id>
+        <link href="https://1306229903.github.io/post/yi-ge-yong-hu-qing-qiu-ti-yan-wen-ti/">
+        </link>
+        <updated>2021-05-06T09:19:59.000Z</updated>
+        <content type="html"><![CDATA[<p>一个页面会展示几条数据，这些数据都是从一个接口下发的，这个接口最大拉取条数是1000条，然后更新数据的时候，这里就涉及怎么请求来提升体验的问题。一般的场景就是，需要更新的时候就拉取对应的几条新数据就行，再配合请求时等待的loading框。</p>
+<p>还有一种，如果本来这个页面数据量不大，用户可能最多就存那么十几条数据到数据库，那么我们就可以一次性全部从接口取完，并保存在内存中，需要更新的时候就从内存中去取，因为没有什么等待的loading，这样用户看起来很快捷</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于cookie的重新理解]]></title>
+        <id>https://1306229903.github.io/post/guan-yu-cookie-de-chong-xin-li-jie/</id>
+        <link href="https://1306229903.github.io/post/guan-yu-cookie-de-chong-xin-li-jie/">
+        </link>
+        <updated>2021-05-06T09:19:41.000Z</updated>
+        <content type="html"><![CDATA[<p>Cookie实际上是一小段的文本信息。客户端请求服务器，如果服务器需要记录该用户状态，就使用response向客户端浏览器颁发一个Cookie。客户端浏览器会把Cookie保存起来。当浏览器再请求该网站时，浏览器把请求的网址连同该Cookie一同提交给服务器。服务器检查该Cookie，以此来辨认用户状态。</p>
+<p>Cookie是不可跨域名的，只要两个网站的域名不一样（父子域也是如此），它们之间的的cookie就不能相互访问。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前端往后端发送数据，三种编码格式的区别]]></title>
+        <id>https://1306229903.github.io/post/qian-duan-wang-hou-duan-fa-song-shu-ju-san-chong-bian-ma-ge-shi-de-qu-bie/</id>
+        <link href="https://1306229903.github.io/post/qian-duan-wang-hou-duan-fa-song-shu-ju-san-chong-bian-ma-ge-shi-de-qu-bie/">
+        </link>
+        <updated>2021-05-06T09:19:29.000Z</updated>
+        <content type="html"><![CDATA[<p>通常，前端往后端发送数据，常用有这么三种编码格式（application/x-www-form-urlencoded、application/json、multipart/form-data）。</p>
+<p>后两种，浏览器或客户端都会自动去序列化，无需进行数据处理；而（application/x-www-form-urlencoded）这种，客户端序列化出的数据格式，是后端无法接收的，这种类型的必须先手动去编码，在手动进行数据处理后如：使用URLSearchParams，才能正常被后端所解析。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前后端大数传输方案]]></title>
+        <id>https://1306229903.github.io/post/qian-hou-duan-da-shu-chuan-shu-fang-an/</id>
+        <link href="https://1306229903.github.io/post/qian-hou-duan-da-shu-chuan-shu-fang-an/">
+        </link>
+        <updated>2021-05-06T09:18:47.000Z</updated>
+        <content type="html"><![CDATA[<p>JS的Number类型有位数限制，无法表示超过最大安全整数的数字，这时会出现精度丢失。</p>
+<p>在出现前后端大数传递的场景时，第一种方案是全部采用字符串类型进行传递；第二种方案可以使用es2020的bigint类型或bignumber.js这个库，将大数转换，然后再借助json-bigint这个库进行请求或响应相关的接口数据处理。</p>
 ]]></content>
     </entry>
 </feed>
