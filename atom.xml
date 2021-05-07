@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2021-05-06T10:40:28.385Z</updated>
+    <updated>2021-05-07T02:18:37.218Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -34,11 +34,8 @@ CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实�
 <p>第二等级：代表 ID选择器，如 #id=&quot;&quot;, 权值为 0,1,0,0；</p>
 <p>第三等级：代表 calss | 伪类 | 属性 选择器，如 .class | :hover,:link,:target | [type], 权值 0,0,1,0；</p>
 <p>第四等级：代表 标签 | 伪元素 选择器，如 p | ::after, ::before, ::fist-inline, ::selection, 权值 0,0,0,1；</p>
-<pre><code>         此外，通用选择器（*），子选择器（&gt;）， 相邻同胞选择器（+）等选择器不在4等级之内，所以它们的权值都为 0,0,0,0；
-
-         这些权值代表的是256进制，并非10进制
-</code></pre>
-<p>权值 = 第一等级选择器权重值<em>个数，第二等级选择器权重值</em>个数，第三等级选择器权重值<em>个数，第四等级选择器权重值</em>个数；</p>
+<p>此外，通用选择器（<em>），子选择器（&gt;）， 相邻同胞选择器（+）等选择器不在4等级之内，所以它们的权值都为 0,0,0,0； 这些权值代表的是256进制，并非10进制<br>
+权值 = 第一等级选择器权重值</em>个数，第二等级选择器权重值<em>个数，第三等级选择器权重值</em>个数，第四等级选择器权重值*个数；</p>
 <p>比较是从高到低逐级将等级位上的权重值进行比较的，或者说先从高到低比较其选择器数量，也可计算出来总的权值来比较</p>
 ]]></content>
     </entry>
