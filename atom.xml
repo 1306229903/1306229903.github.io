@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2021-05-27T14:28:33.486Z</updated>
+    <updated>2021-08-29T14:15:05.081Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Xiao6</rights>
+    <entry>
+        <title type="html"><![CDATA[chrome浏览器原理]]></title>
+        <id>https://1306229903.github.io/post/chrome-liu-lan-qi-yuan-li/</id>
+        <link href="https://1306229903.github.io/post/chrome-liu-lan-qi-yuan-li/">
+        </link>
+        <updated>2021-08-29T14:07:08.000Z</updated>
+        <content type="html"><![CDATA[<p>chrome浏览器是一个多进程架构的系统，其中进程主要分为浏览器进程、渲染进程、插件进程、网络进程等，每一个tab页面会生成渲染进程，而渲染进程中则包括GUI线程、js引擎线程、事件线程、异步请求线程等线程，具体如下<br>
+<a href="https://zhuanlan.zhihu.com/p/102149546">https://zhuanlan.zhihu.com/p/102149546</a><br>
+<a href="https://www.cnblogs.com/zs-note/p/9042282.html">https://www.cnblogs.com/zs-note/p/9042282.html</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[权限设计]]></title>
+        <id>https://1306229903.github.io/post/quan-xian-she-ji/</id>
+        <link href="https://1306229903.github.io/post/quan-xian-she-ji/">
+        </link>
+        <updated>2021-08-29T14:01:11.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="前端权限设计架构主要分为登录-页面-内容三大层面具体如下">前端权限设计架构，主要分为登录、页面、内容三大层面，具体如下</h3>
+<p><a href="https://mp.weixin.qq.com/s/aOt_JtYycGRPy0DShQySjA">https://mp.weixin.qq.com/s/aOt_JtYycGRPy0DShQySjA</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[canvas绘图在高清屏出现模糊的问题]]></title>
         <id>https://1306229903.github.io/post/canvas-hui-tu-zai-gao-qing-ping-chu-xian-mo-hu-de-wen-ti/</id>
@@ -101,28 +122,6 @@ https://blog.csdn.net/leftfist/article/details/112283784</p>
         <content type="html"><![CDATA[<p>Vue在观察到数据变化时并不是直接更新DOM，而是开启一个队列，并缓冲在同一个事件循环中发生的所有数据改变。</p>
 <p>在缓冲时会去除重复数据，从而避免不必要的计算和DOM操作。</p>
 <p>然后，在下一个事件循环tick中，Vue刷新队列才进行对应的dom更新</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue的数据响应式底层实现]]></title>
-        <id>https://1306229903.github.io/post/vue-de-shu-ju-xiang-ying-shi-di-ceng-shi-xian/</id>
-        <link href="https://1306229903.github.io/post/vue-de-shu-ju-xiang-ying-shi-di-ceng-shi-xian/">
-        </link>
-        <updated>2021-05-06T09:47:00.000Z</updated>
-        <content type="html"><![CDATA[<p>数据响应式原理：采用数据劫持结合发布者-订阅者模式的方式，通过Object.defineProperty()来劫持各个属性的setter/getter，</p>
-<p>在数据变动时发布消息给订阅者，触发相应的监听回调</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vue diff算法温习]]></title>
-        <id>https://1306229903.github.io/post/vue-diff-suan-fa-wen-xi/</id>
-        <link href="https://1306229903.github.io/post/vue-diff-suan-fa-wen-xi/">
-        </link>
-        <updated>2021-05-06T09:46:12.000Z</updated>
-        <content type="html"><![CDATA[<p>https://juejin.cn/post/6844903938102149134#heading-2<br>
-https://juejin.cn/post/6844903961837699079<br>
-https://www.cnblogs.com/wind-lanyan/p/9061684.html<br>
-https://blog.csdn.net/weixin_44475093/article/details/111714220</p>
 ]]></content>
     </entry>
 </feed>
