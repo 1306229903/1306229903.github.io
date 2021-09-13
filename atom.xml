@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2021-08-29T14:18:56.419Z</updated>
+    <updated>2021-09-13T16:48:37.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -10,6 +10,53 @@
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Xiao6</rights>
+    <entry>
+        <title type="html"><![CDATA[前端工具方法整理]]></title>
+        <id>https://1306229903.github.io/post/qian-duan-gong-ju-fang-fa-zheng-li/</id>
+        <link href="https://1306229903.github.io/post/qian-duan-gong-ju-fang-fa-zheng-li/">
+        </link>
+        <updated>2021-09-13T16:39:32.000Z</updated>
+        <content type="html"><![CDATA[<p>工作中常备工具方法的整理：<br>
+<a href="https://mp.weixin.qq.com/s/-UmpxMFTAbYy4QhdSjVkCA">https://mp.weixin.qq.com/s/-UmpxMFTAbYy4QhdSjVkCA</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ts指南]]></title>
+        <id>https://1306229903.github.io/post/ts-zhi-nan/</id>
+        <link href="https://1306229903.github.io/post/ts-zhi-nan/">
+        </link>
+        <updated>2021-09-13T16:37:54.000Z</updated>
+        <content type="html"><![CDATA[<p>一个不可多得的typescript学习手册<br>
+<a href="https://mp.weixin.qq.com/s/aCJMArlnPsWOK4nGb5nBoQ">https://mp.weixin.qq.com/s/aCJMArlnPsWOK4nGb5nBoQ</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[webpack相关知识的回归]]></title>
+        <id>https://1306229903.github.io/post/webpack-xiang-guan-zhi-shi-de-hui-gui/</id>
+        <link href="https://1306229903.github.io/post/webpack-xiang-guan-zhi-shi-de-hui-gui/">
+        </link>
+        <updated>2021-09-13T16:36:21.000Z</updated>
+        <content type="html"><![CDATA[<p>对之前所学webpack知识的回归复习：<a href="https://mp.weixin.qq.com/s/AF7Qpij3aa-Ix6lraGSIsw">https://mp.weixin.qq.com/s/AF7Qpij3aa-Ix6lraGSIsw</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[可视化拖曳研究]]></title>
+        <id>https://1306229903.github.io/post/ke-shi-hua-tuo-yi-yan-jiu/</id>
+        <link href="https://1306229903.github.io/post/ke-shi-hua-tuo-yi-yan-jiu/">
+        </link>
+        <updated>2021-09-13T16:32:55.000Z</updated>
+        <content type="html"><![CDATA[<p>项目中之前做了一个在线面单设计器，参考了该开源项目的理念： <a href="https://mp.weixin.qq.com/s/-_FklC_z8YhiZ-QYHCf6zA">https://mp.weixin.qq.com/s/-_FklC_z8YhiZ-QYHCf6zA</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eventLoop]]></title>
+        <id>https://1306229903.github.io/post/eventloop/</id>
+        <link href="https://1306229903.github.io/post/eventloop/">
+        </link>
+        <updated>2021-09-13T16:26:36.000Z</updated>
+        <content type="html"><![CDATA[<p>关于js事件循环机制的详解  <a href="https://mp.weixin.qq.com/s/MErDXm9Tk9NRbrNT1jYZOQ">https://mp.weixin.qq.com/s/MErDXm9Tk9NRbrNT1jYZOQ</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[chrome浏览器原理]]></title>
         <id>https://1306229903.github.io/post/chrome-liu-lan-qi-yuan-li/</id>
@@ -67,61 +114,6 @@ CSS宽高会决定所占物理区域的宽高，画布分为绘图区域和实�
         </link>
         <updated>2021-05-06T09:50:38.000Z</updated>
         <content type="html"><![CDATA[<p>https://blog.csdn.net/xjl271314/article/details/97137389</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[理解JS宏任务和微任务及执行机制]]></title>
-        <id>https://1306229903.github.io/post/li-jie-js-hong-ren-wu-he-wei-ren-wu-ji-zhi-xing-ji-zhi/</id>
-        <link href="https://1306229903.github.io/post/li-jie-js-hong-ren-wu-he-wei-ren-wu-ji-zhi-xing-ji-zhi/">
-        </link>
-        <updated>2021-05-06T09:49:36.000Z</updated>
-        <content type="html"><![CDATA[<p>这几篇博文阐述的比较完整<br>
-https://www.cnblogs.com/fundebug/p/10095355.html</p>
-<p>https://www.cnblogs.com/jiangyuzhen/p/11064408.html</p>
-<p>https://segmentfault.com/a/1190000012806637#comment-area</p>
-<p>https://segmentfault.com/a/1190000018227028</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[正则捕获组]]></title>
-        <id>https://1306229903.github.io/post/zheng-ze-bu-huo-zu/</id>
-        <link href="https://1306229903.github.io/post/zheng-ze-bu-huo-zu/">
-        </link>
-        <updated>2021-05-06T09:49:11.000Z</updated>
-        <content type="html"><![CDATA[<p>https://blog.csdn.net/qq_34099161/article/details/80434911</p>
-<p>https://www.cnblogs.com/ziyunfei/p/6761413.html</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[chrome 同站策略]]></title>
-        <id>https://1306229903.github.io/post/chrome-tong-zhan-ce-lue/</id>
-        <link href="https://1306229903.github.io/post/chrome-tong-zhan-ce-lue/">
-        </link>
-        <updated>2021-05-06T09:48:22.000Z</updated>
-        <content type="html"><![CDATA[<p>iframe在高版本的chrome中，访问第三方网址时，无法带上对应的cookie，具体解决方案有以下几种：<br>
-https://blog.csdn.net/leftfist/article/details/112283784</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么 Vue 实例只能有一个根元素]]></title>
-        <id>https://1306229903.github.io/post/wei-shi-me-vue-shi-li-zhi-neng-you-yi-ge-gen-yuan-su/</id>
-        <link href="https://1306229903.github.io/post/wei-shi-me-vue-shi-li-zhi-neng-you-yi-ge-gen-yuan-su/">
-        </link>
-        <updated>2021-05-06T09:48:00.000Z</updated>
-        <content type="html"><![CDATA[<p>1、vue实例挂载的时候，需要寻找到对应的模板入口，如果同时设置了多个入口，它就不知道该用哪个入口</p>
-<p>2、由于vue的diff算法是这样依赖来编写的，你可以去更新修改</p>
-<p>3、从查找和遍历的角度来说，如果有多个根，那么我们的查找和遍历的效率会很低</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VUE的异步刷新队列]]></title>
-        <id>https://1306229903.github.io/post/vue-de-yi-bu-shua-xin-dui-lie/</id>
-        <link href="https://1306229903.github.io/post/vue-de-yi-bu-shua-xin-dui-lie/">
-        </link>
-        <updated>2021-05-06T09:47:31.000Z</updated>
-        <content type="html"><![CDATA[<p>Vue在观察到数据变化时并不是直接更新DOM，而是开启一个队列，并缓冲在同一个事件循环中发生的所有数据改变。</p>
-<p>在缓冲时会去除重复数据，从而避免不必要的计算和DOM操作。</p>
-<p>然后，在下一个事件循环tick中，Vue刷新队列才进行对应的dom更新</p>
 ]]></content>
     </entry>
 </feed>
