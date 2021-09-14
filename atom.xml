@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2021-09-13T16:54:06.469Z</updated>
+    <updated>2021-09-14T15:32:25.260Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -11,50 +11,52 @@
     <icon>https://1306229903.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Xiao6</rights>
     <entry>
-        <title type="html"><![CDATA[前端工具方法整理]]></title>
-        <id>https://1306229903.github.io/post/qian-duan-gong-ju-fang-fa-zheng-li/</id>
-        <link href="https://1306229903.github.io/post/qian-duan-gong-ju-fang-fa-zheng-li/">
+        <title type="html"><![CDATA[Chrome 运行时的性能分析]]></title>
+        <id>https://1306229903.github.io/post/chrome-yun-xing-shi-de-xing-neng-fen-xi/</id>
+        <link href="https://1306229903.github.io/post/chrome-yun-xing-shi-de-xing-neng-fen-xi/">
         </link>
-        <updated>2021-09-13T16:39:32.000Z</updated>
-        <content type="html"><![CDATA[<p>工作中常备工具方法的整理：<br>
-<a href="https://mp.weixin.qq.com/s/-UmpxMFTAbYy4QhdSjVkCA">https://mp.weixin.qq.com/s/-UmpxMFTAbYy4QhdSjVkCA</a></p>
+        <updated>2021-09-14T15:30:41.000Z</updated>
+        <content type="html"><![CDATA[<p>Chrome 运行时性能相关的瓶颈问题分析<br>
+<a href="https://mp.weixin.qq.com/s/0JPASL4Y2hTj-onroZ1R_g">https://mp.weixin.qq.com/s/0JPASL4Y2hTj-onroZ1R_g</a></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ts指南]]></title>
-        <id>https://1306229903.github.io/post/ts-zhi-nan/</id>
-        <link href="https://1306229903.github.io/post/ts-zhi-nan/">
+        <title type="html"><![CDATA[进程和线程]]></title>
+        <id>https://1306229903.github.io/post/jin-cheng-he-xian-cheng/</id>
+        <link href="https://1306229903.github.io/post/jin-cheng-he-xian-cheng/">
         </link>
-        <updated>2021-09-13T16:37:54.000Z</updated>
-        <content type="html"><![CDATA[<p>一个不可多得的typescript学习手册<br>
-<a href="https://mp.weixin.qq.com/s/aCJMArlnPsWOK4nGb5nBoQ">https://mp.weixin.qq.com/s/aCJMArlnPsWOK4nGb5nBoQ</a></p>
+        <updated>2021-09-14T15:28:51.000Z</updated>
+        <content type="html"><![CDATA[<p>操作系统进程和线程方面的知识<br>
+<a href="https://mp.weixin.qq.com/s/1adwQNYojaxfY_zB5S9xjQ">https://mp.weixin.qq.com/s/1adwQNYojaxfY_zB5S9xjQ</a></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[webpack相关知识的回归]]></title>
-        <id>https://1306229903.github.io/post/webpack-xiang-guan-zhi-shi-de-hui-gui/</id>
-        <link href="https://1306229903.github.io/post/webpack-xiang-guan-zhi-shi-de-hui-gui/">
+        <title type="html"><![CDATA[cookie、session、token三者的理解]]></title>
+        <id>https://1306229903.github.io/post/cookiesessiontoken-san-zhe-de-li-jie/</id>
+        <link href="https://1306229903.github.io/post/cookiesessiontoken-san-zhe-de-li-jie/">
         </link>
-        <updated>2021-09-13T16:36:21.000Z</updated>
-        <content type="html"><![CDATA[<p>对之前所学webpack知识的回归复习：<a href="https://mp.weixin.qq.com/s/AF7Qpij3aa-Ix6lraGSIsw">https://mp.weixin.qq.com/s/AF7Qpij3aa-Ix6lraGSIsw</a></p>
+        <updated>2021-09-14T15:25:40.000Z</updated>
+        <content type="html"><![CDATA[<p>彻底理解 cookie、session、token<br>
+<a href="https://mp.weixin.qq.com/s/1Kh18uyEJzM21mc2l5MMCg">https://mp.weixin.qq.com/s/1Kh18uyEJzM21mc2l5MMCg</a></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[可视化拖曳研究]]></title>
-        <id>https://1306229903.github.io/post/ke-shi-hua-tuo-yi-yan-jiu/</id>
-        <link href="https://1306229903.github.io/post/ke-shi-hua-tuo-yi-yan-jiu/">
+        <title type="html"><![CDATA[玩转前端二进制]]></title>
+        <id>https://1306229903.github.io/post/qian-duan-er-jin-zhi/</id>
+        <link href="https://1306229903.github.io/post/qian-duan-er-jin-zhi/">
         </link>
-        <updated>2021-09-13T16:32:55.000Z</updated>
-        <content type="html"><![CDATA[<p>项目中之前做了一个在线面单设计器，参考了该开源项目的理念： <a href="https://mp.weixin.qq.com/s/-_FklC_z8YhiZ-QYHCf6zA">https://mp.weixin.qq.com/s/-_FklC_z8YhiZ-QYHCf6zA</a></p>
+        <updated>2021-09-14T15:23:37.000Z</updated>
+        <content type="html"><![CDATA[<p>前端二进制知识相关的学习<a href="https://mp.weixin.qq.com/s/DoipkAca00MuXon8wRYPgQ">https://mp.weixin.qq.com/s/DoipkAca00MuXon8wRYPgQ</a></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[eventLoop]]></title>
-        <id>https://1306229903.github.io/post/eventloop/</id>
-        <link href="https://1306229903.github.io/post/eventloop/">
+        <title type="html"><![CDATA[观察者模式vs发布订阅模式]]></title>
+        <id>https://1306229903.github.io/post/guan-cha-zhe-mo-shi-vs-fa-bu-ding-yue-mo-shi/</id>
+        <link href="https://1306229903.github.io/post/guan-cha-zhe-mo-shi-vs-fa-bu-ding-yue-mo-shi/">
         </link>
-        <updated>2021-09-13T16:26:36.000Z</updated>
-        <content type="html"><![CDATA[<p>关于js事件循环机制的详解  <a href="https://mp.weixin.qq.com/s/MErDXm9Tk9NRbrNT1jYZOQ">https://mp.weixin.qq.com/s/MErDXm9Tk9NRbrNT1jYZOQ</a></p>
+        <updated>2021-09-14T15:13:38.000Z</updated>
+        <content type="html"><![CDATA[<p>设计模式中的观察者模式和发布订阅模式类似，主要区别在于发布订阅模式有个调度中心。<br>
+<a href="https://www.jianshu.com/p/594f018b68e7">https://www.jianshu.com/p/594f018b68e7</a></p>
 ]]></content>
     </entry>
 </feed>
