@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2021-09-14T15:44:33.271Z</updated>
+    <updated>2021-09-17T14:48:41.389Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Xiao6</rights>
+    <entry>
+        <title type="html"><![CDATA[Vue响应式原理中对数组的处理]]></title>
+        <id>https://1306229903.github.io/post/vue-xiang-ying-shi-yuan-li-zhong-dui-shu-zu-de-chu-li/</id>
+        <link href="https://1306229903.github.io/post/vue-xiang-ying-shi-yuan-li-zhong-dui-shu-zu-de-chu-li/">
+        </link>
+        <updated>2021-09-17T14:24:35.000Z</updated>
+        <content type="html"><![CDATA[<p>因为vue作者大大考虑的是直接监听数组索引的变化性能开销会很大，就采用拦截了原生Array几个原型方法，使用对应的方法时，触发notify手动通知数据更新<br>
+<a href="https://juejin.cn/post/6844903859614121998">https://juejin.cn/post/6844903859614121998</a><br>
+<a href="https://juejin.cn/post/6844903917898186766#heading-3">https://juejin.cn/post/6844903917898186766#heading-3</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vue中使用v-for时为什么不能用index作为key]]></title>
+        <id>https://1306229903.github.io/post/vue-zhong-shi-yong-v-for-shi-wei-shi-me-bu-neng-yong-index-zuo-wei-key/</id>
+        <link href="https://1306229903.github.io/post/vue-zhong-shi-yong-v-for-shi-wei-shi-me-bu-neng-yong-index-zuo-wei-key/">
+        </link>
+        <updated>2021-09-17T14:22:24.000Z</updated>
+        <content type="html"><![CDATA[<p>如题。主要还是会造成一些bug和问题，在key用于复用节点时候，会出差错<br>
+<a href="https://www.jianshu.com/p/6e1ed6438dc9">https://www.jianshu.com/p/6e1ed6438dc9</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 运行时的性能分析]]></title>
         <id>https://1306229903.github.io/post/chrome-yun-xing-shi-de-xing-neng-fen-xi/</id>
@@ -38,25 +59,6 @@
         <updated>2021-09-14T15:25:40.000Z</updated>
         <content type="html"><![CDATA[<p>彻底理解 cookie、session、token<br>
 <a href="https://mp.weixin.qq.com/s/1Kh18uyEJzM21mc2l5MMCg">https://mp.weixin.qq.com/s/1Kh18uyEJzM21mc2l5MMCg</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[玩转前端二进制]]></title>
-        <id>https://1306229903.github.io/post/qian-duan-er-jin-zhi/</id>
-        <link href="https://1306229903.github.io/post/qian-duan-er-jin-zhi/">
-        </link>
-        <updated>2021-09-14T15:23:37.000Z</updated>
-        <content type="html"><![CDATA[<p>前端二进制知识相关的学习<a href="https://mp.weixin.qq.com/s/DoipkAca00MuXon8wRYPgQ">https://mp.weixin.qq.com/s/DoipkAca00MuXon8wRYPgQ</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[观察者模式vs发布订阅模式]]></title>
-        <id>https://1306229903.github.io/post/guan-cha-zhe-mo-shi-vs-fa-bu-ding-yue-mo-shi/</id>
-        <link href="https://1306229903.github.io/post/guan-cha-zhe-mo-shi-vs-fa-bu-ding-yue-mo-shi/">
-        </link>
-        <updated>2021-09-14T15:13:38.000Z</updated>
-        <content type="html"><![CDATA[<p>设计模式中的观察者模式和发布订阅模式类似，主要区别在于发布订阅模式有个调度中心。<br>
-<a href="https://www.jianshu.com/p/594f018b68e7">https://www.jianshu.com/p/594f018b68e7</a></p>
 ]]></content>
     </entry>
 </feed>
