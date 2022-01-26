@@ -2,14 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2021-11-03T15:17:38.044Z</updated>
+    <updated>2022-01-26T14:24:05.342Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
     <subtitle>Xiao6</subtitle>
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Xiao6</rights>
+    <rights>All rights reserved 2022, Xiao6</rights>
+    <entry>
+        <title type="html"><![CDATA[深入浅出 Commonjs 和 Es Module]]></title>
+        <id>https://1306229903.github.io/post/shen-ru-qian-chu-commonjs-he-es-module/</id>
+        <link href="https://1306229903.github.io/post/shen-ru-qian-chu-commonjs-he-es-module/">
+        </link>
+        <updated>2022-01-26T14:20:14.000Z</updated>
+        <content type="html"><![CDATA[<p>深入浅出 Commonjs 和 Es Module：<br>
+<a href="https://mp.weixin.qq.com/s/Fe7PdLafVTL1291kMbuvew">https://mp.weixin.qq.com/s/Fe7PdLafVTL1291kMbuvew</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JSBridge 原理与实践]]></title>
+        <id>https://1306229903.github.io/post/jsbridge-yuan-li-yu-shi-jian/</id>
+        <link href="https://1306229903.github.io/post/jsbridge-yuan-li-yu-shi-jian/">
+        </link>
+        <updated>2022-01-26T14:18:38.000Z</updated>
+        <content type="html"><![CDATA[<p>关于JSBridge 原理与实践：<br>
+<a href="https://mp.weixin.qq.com/s/-mhVKcVv5Z1fyT27c72nmA">https://mp.weixin.qq.com/s/-mhVKcVv5Z1fyT27c72nmA</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何阅读前端源码的通用技巧]]></title>
+        <id>https://1306229903.github.io/post/ru-he-yue-du-qian-duan-yuan-ma-de-tong-yong-ji-qiao/</id>
+        <link href="https://1306229903.github.io/post/ru-he-yue-du-qian-duan-yuan-ma-de-tong-yong-ji-qiao/">
+        </link>
+        <updated>2022-01-26T14:17:05.000Z</updated>
+        <content type="html"><![CDATA[<p>阅读前端源码的通用技巧：<br>
+<a href="https://mp.weixin.qq.com/s/wzOAzLCVqCS0btk-Ipy_1w">https://mp.weixin.qq.com/s/wzOAzLCVqCS0btk-Ipy_1w</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[前端页面性能指标基本介绍]]></title>
         <id>https://1306229903.github.io/post/qian-duan-ye-mian-xing-neng-zhi-biao-ji-ben-jie-shao/</id>
@@ -28,36 +58,6 @@
         <updated>2021-11-03T14:42:07.000Z</updated>
         <content type="html"><![CDATA[<p>react进阶，react-hooks 相关原理<br>
 <a href="https://mp.weixin.qq.com/s/3ejFeGKXGV4HXgO4mwcPMA">https://mp.weixin.qq.com/s/3ejFeGKXGV4HXgO4mwcPMA</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[基于 Vue 项目集成eslint做代码校验]]></title>
-        <id>https://1306229903.github.io/post/ji-yu-vue-ji-cheng-eslint-de-dai-ma-xiao-yan/</id>
-        <link href="https://1306229903.github.io/post/ji-yu-vue-ji-cheng-eslint-de-dai-ma-xiao-yan/">
-        </link>
-        <updated>2021-11-03T14:36:51.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/f3WzR5lXTZ4FNuzMqlXQdA">https://mp.weixin.qq.com/s/f3WzR5lXTZ4FNuzMqlXQdA</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用Chrome开发者工具调试Android端webview的网页]]></title>
-        <id>https://1306229903.github.io/post/shi-yong-chrome-kai-fa-zhe-gong-ju-diao-shi-android-duan-webview-de-wang-ye/</id>
-        <link href="https://1306229903.github.io/post/shi-yong-chrome-kai-fa-zhe-gong-ju-diao-shi-android-duan-webview-de-wang-ye/">
-        </link>
-        <updated>2021-11-03T14:27:40.000Z</updated>
-        <content type="html"><![CDATA[<p>x5内核调试的具体方法：<a href="https://juejin.cn/post/6844903645016752136#heading-2">https://juejin.cn/post/6844903645016752136#heading-2</a><br>
-出现404问题的解决方案：<a href="http://centphp.com/view/165">http://centphp.com/view/165</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vue响应式原理中对数组的处理]]></title>
-        <id>https://1306229903.github.io/post/vue-xiang-ying-shi-yuan-li-zhong-dui-shu-zu-de-chu-li/</id>
-        <link href="https://1306229903.github.io/post/vue-xiang-ying-shi-yuan-li-zhong-dui-shu-zu-de-chu-li/">
-        </link>
-        <updated>2021-09-17T14:24:35.000Z</updated>
-        <content type="html"><![CDATA[<p>因为vue作者大大考虑的是直接监听数组索引的变化性能开销会很大，就采用拦截了原生Array几个原型方法，使用对应的方法时，触发notify手动通知数据更新<br>
-<a href="https://juejin.cn/post/6844903859614121998">https://juejin.cn/post/6844903859614121998</a><br>
-<a href="https://juejin.cn/post/6844903917898186766#heading-3">https://juejin.cn/post/6844903917898186766#heading-3</a></p>
 ]]></content>
     </entry>
 </feed>
