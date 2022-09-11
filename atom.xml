@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2022-04-30T12:29:39.403Z</updated>
+    <updated>2022-09-11T12:28:25.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Xiao6</rights>
+    <entry>
+        <title type="html"><![CDATA[常见垃圾回收算法原理]]></title>
+        <id>https://1306229903.github.io/post/chang-jian-la-ji-hui-shou-suan-fa-yuan-li/</id>
+        <link href="https://1306229903.github.io/post/chang-jian-la-ji-hui-shou-suan-fa-yuan-li/">
+        </link>
+        <updated>2022-09-07T13:11:58.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/obdGN6IFs31N6hUbGgA8ew">https://mp.weixin.qq.com/s/obdGN6IFs31N6hUbGgA8ew</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前端团队的技术分享1（你不知道的emoji）]]></title>
+        <id>https://1306229903.github.io/post/qian-duan-tuan-dui-de-ji-zhu-fen-xiang-1ni-bu-zhi-dao-de-emoji/</id>
+        <link href="https://1306229903.github.io/post/qian-duan-tuan-dui-de-ji-zhu-fen-xiang-1ni-bu-zhi-dao-de-emoji/">
+        </link>
+        <updated>2022-09-06T11:10:36.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://k24kvergsl.feishu.cn/docs/doccn6nOT1SU2zwN0Ivz2pniXmV#afmT8a">飞书文档链接 https://k24kvergsl.feishu.cn/docs/doccn6nOT1SU2zwN0Ivz2pniXmV#afmT8a</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[优雅地给对象的所有方法添加异常处理]]></title>
         <id>https://1306229903.github.io/post/you-ya-di-gei-dui-xiang-de-suo-you-fang-fa-tian-jia-yi-chang-chu-li/</id>
@@ -36,26 +54,6 @@
         <updated>2022-03-23T11:24:13.000Z</updated>
         <content type="html"><![CDATA[<p>15 张图，20 分钟吃透 Diff 算法核心原理：<br>
 <a href="https://mp.weixin.qq.com/s/Zi4spufaPxeZTMbjj_b55A">https://mp.weixin.qq.com/s/Zi4spufaPxeZTMbjj_b55A</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[56 个 JavaScript 实用工具函数助你提升开发效率！]]></title>
-        <id>https://1306229903.github.io/post/56-ge-javascript-shi-yong-gong-ju-han-shu-zhu-ni-ti-sheng-kai-fa-xiao-lu/</id>
-        <link href="https://1306229903.github.io/post/56-ge-javascript-shi-yong-gong-ju-han-shu-zhu-ni-ti-sheng-kai-fa-xiao-lu/">
-        </link>
-        <updated>2022-03-23T11:23:42.000Z</updated>
-        <content type="html"><![CDATA[<p>56 个 JavaScript 实用工具函数助你提升开发效率：<br>
-<a href="https://mp.weixin.qq.com/s/aU2LMBB9KJTinyIAybuzLg">https://mp.weixin.qq.com/s/aU2LMBB9KJTinyIAybuzLg</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[前端监控 SDK 的一些技术要点原理分析]]></title>
-        <id>https://1306229903.github.io/post/qian-duan-jian-kong-sdk-de-yi-xie-ji-zhu-yao-dian-yuan-li-fen-xi/</id>
-        <link href="https://1306229903.github.io/post/qian-duan-jian-kong-sdk-de-yi-xie-ji-zhu-yao-dian-yuan-li-fen-xi/">
-        </link>
-        <updated>2022-03-23T11:22:17.000Z</updated>
-        <content type="html"><![CDATA[<p>前端监控 SDK 的一些技术要点原理分析：<br>
-<a href="https://mp.weixin.qq.com/s/U4JmrjUUI2CjoEBTcMaiPw">https://mp.weixin.qq.com/s/U4JmrjUUI2CjoEBTcMaiPw</a></p>
 ]]></content>
     </entry>
 </feed>
