@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2022-10-21T09:23:46.256Z</updated>
+    <updated>2022-12-30T13:33:10.313Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Xiao6</rights>
+    <entry>
+        <title type="html"><![CDATA[TS 编译配置]]></title>
+        <id>https://1306229903.github.io/post/ts-bian-yi-pei-zhi/</id>
+        <link href="https://1306229903.github.io/post/ts-bian-yi-pei-zhi/">
+        </link>
+        <updated>2022-12-30T13:30:45.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/lMYTo5aSbHtzMeqKTTuS6w">https://mp.weixin.qq.com/s/lMYTo5aSbHtzMeqKTTuS6w</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为 Vue3 组件标注 TS 类型]]></title>
+        <id>https://1306229903.github.io/post/wei-vue3-zu-jian-biao-zhu-ts-lei-xing/</id>
+        <link href="https://1306229903.github.io/post/wei-vue3-zu-jian-biao-zhu-ts-lei-xing/">
+        </link>
+        <updated>2022-12-30T13:29:01.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/Sno0eKaOrAbdttJKNokTlg">https://mp.weixin.qq.com/s/Sno0eKaOrAbdttJKNokTlg</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[前端主题切换方案对比]]></title>
         <id>https://1306229903.github.io/post/qian-duan-zhu-ti-qie-huan-fang-an-dui-bi/</id>
@@ -35,24 +53,6 @@
         </link>
         <updated>2022-09-25T09:53:12.000Z</updated>
         <content type="html"><![CDATA[<p><a href="http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651604918&amp;idx=1&amp;sn=b38b60674bed1074dc3ac90e577176d7&amp;chksm=80229077b7551961ed10a1eea1b0348b375cd21e81e12afa4820a5096f2ca3639ec7d1badb77&amp;mpshare=1&amp;scene=24&amp;srcid=0920UkdRXmtgrgtZXIZTPzkU&amp;sharer_sharetime=1663650606464&amp;sharer_shareid=812fd12093d5da24989422fde7c67c7c#rd">http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651604918&amp;idx=1&amp;sn=b38b60674bed1074dc3ac90e577176d7&amp;chksm=80229077b7551961ed10a1eea1b0348b375cd21e81e12afa4820a5096f2ca3639ec7d1badb77&amp;mpshare=1&amp;scene=24&amp;srcid=0920UkdRXmtgrgtZXIZTPzkU&amp;sharer_sharetime=1663650606464&amp;sharer_shareid=812fd12093d5da24989422fde7c67c7c#rd</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大文件快速上传]]></title>
-        <id>https://1306229903.github.io/post/da-wen-jian-kuai-su-shang-chuan/</id>
-        <link href="https://1306229903.github.io/post/da-wen-jian-kuai-su-shang-chuan/">
-        </link>
-        <updated>2022-09-25T09:52:36.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651604557&amp;idx=1&amp;sn=0ffdbb0535ada93e74e41a4028f5a9e8&amp;chksm=8022918cb755189ab7e8c7b0affee2fe8f0dc931c30d163cac03296b171bbbe5db917c64a987&amp;mpshare=1&amp;scene=24&amp;srcid=0918wnPbqBZl8aTnneLH4wZP&amp;sharer_sharetime=1663509422965&amp;sharer_shareid=812fd12093d5da24989422fde7c67c7c#rd">http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651604557&amp;idx=1&amp;sn=0ffdbb0535ada93e74e41a4028f5a9e8&amp;chksm=8022918cb755189ab7e8c7b0affee2fe8f0dc931c30d163cac03296b171bbbe5db917c64a987&amp;mpshare=1&amp;scene=24&amp;srcid=0918wnPbqBZl8aTnneLH4wZP&amp;sharer_sharetime=1663509422965&amp;sharer_shareid=812fd12093d5da24989422fde7c67c7c#rd</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS各种高级语法]]></title>
-        <id>https://1306229903.github.io/post/ts-ge-chong-gao-ji-yu-fa/</id>
-        <link href="https://1306229903.github.io/post/ts-ge-chong-gao-ji-yu-fa/">
-        </link>
-        <updated>2022-09-25T09:49:36.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651603763&amp;idx=2&amp;sn=2512fbeef734184be187ef51c4e49d22&amp;chksm=802294f2b7551de405a2c226603f53c117b67126060cd91ea828ca7e32793356c5633bf59b2b&amp;mpshare=1&amp;scene=24&amp;srcid=0916nHpU0zVswQ55VD5tIZQm&amp;sharer_sharetime=1663319917082&amp;sharer_shareid=812fd12093d5da24989422fde7c67c7c#rd">http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651603763&amp;idx=2&amp;sn=2512fbeef734184be187ef51c4e49d22&amp;chksm=802294f2b7551de405a2c226603f53c117b67126060cd91ea828ca7e32793356c5633bf59b2b&amp;mpshare=1&amp;scene=24&amp;srcid=0916nHpU0zVswQ55VD5tIZQm&amp;sharer_sharetime=1663319917082&amp;sharer_shareid=812fd12093d5da24989422fde7c67c7c#rd</a></p>
 ]]></content>
     </entry>
 </feed>
