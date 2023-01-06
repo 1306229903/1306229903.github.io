@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1306229903.github.io</id>
     <title>Xiao6</title>
-    <updated>2022-12-30T13:36:03.333Z</updated>
+    <updated>2023-01-06T13:28:21.933Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1306229903.github.io"/>
     <link rel="self" href="https://1306229903.github.io/atom.xml"/>
     <subtitle>Xiao6</subtitle>
     <logo>https://1306229903.github.io/images/avatar.png</logo>
     <icon>https://1306229903.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, Xiao6</rights>
+    <rights>All rights reserved 2023, Xiao6</rights>
     <entry>
         <title type="html"><![CDATA[TS 编译配置]]></title>
         <id>https://1306229903.github.io/post/ts-bian-yi-pei-zhi/</id>
